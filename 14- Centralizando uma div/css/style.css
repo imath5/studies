@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body {
+    background-image: url(../img/pexels-marek-mucha-13339565.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+.box-1 {
+    height: 40px;
+    width: 720px;
+    margin-top: -20px;  /*METADE DO HEIGHT NEGATIVO*/
+    margin-left: -360px; /*METADE DO WIDTH NEGATIVO*/
+    top: 50%; 
+    left: 50%;
+    position: absolute;
+    
+}

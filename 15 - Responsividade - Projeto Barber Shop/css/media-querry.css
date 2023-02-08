@@ -1,0 +1,8 @@
+@media (max-width: 800px){
+    .home .header {
+        display:none;
+    }
+    .menuMobile, .botaoMenu{
+        display:block;
+    }
+}
