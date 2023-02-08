@@ -1,0 +1,41 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: rgb(0, 16, 247); 
+    --color-secondary: rgb(134, 142, 255);
+    --spacing: 16px;
+}
+
+h1, h2, h3 {
+    color: var(--color-primary);
+    margin: var(--spacing);
+}
+
+p {
+    color: var(--color-secondary);
+}
+
+.container1  {
+    width: 300px;  /*100% viewport width*/
+    height: 300px; /*100% viewport height*/
+    background-color: blue;
+    /* transition-property: width;
+    transition-duration: 500ms;   
+    transition-timing-function: ease-out;
+    transition-delay: 500ms;*/
+    transition: width 500ms ease-out 200ms;
+
+}
+
+.container1:hover {
+     width: 500px;
+     background-color: red;
+}
+button {
+    background: var(--color-secondary);
+    color: white;
+}

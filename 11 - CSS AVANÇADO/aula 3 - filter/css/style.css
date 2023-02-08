@@ -1,0 +1,12 @@
+@import "variaveis.css";
+@import "comuns.css";
+@import "arquivo-novo.css";
+
+img {
+    filter: brightness(30%);
+   
+}   
+
+.container {
+    filter:blur(3px);
+}

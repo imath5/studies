@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    background-color: black;
+    box-shadow: 0 0 30px black;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: -3px;
+}
+
+.logo span:first-child {
+    color: #1d52ff;
+}
+
+.logo span:last-child {
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display:block;
+}
+
+.menu li:hover {
+    background-color: #1d52ff;
+}
+
+.menu > li:hover > .submenu, .submenu > li:hover > .submenu {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+.submenu {
+    display: none;
+    position:absolute;
+    top: 56px;
+    left: 0;
+    background: #1d52ff;
+    min-width: 100%;
+    text-align:center;
+}
+
+.submenu li:hover {
+    background: black;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}

@@ -1,0 +1,25 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: rgb(87, 20, 20);
+    --color-secundary: rgb(189, 39, 39);
+    --spacing: 16px;
+}
+
+h1, h2, h3 {
+    color: var(--color-primary);
+    margin: var(--spacing);
+}
+
+p {
+    color: var(--color-secundary);
+}
+
+button {
+    background: var(--color-primary);
+    color: white;
+}

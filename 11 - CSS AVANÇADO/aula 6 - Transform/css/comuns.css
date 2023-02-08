@@ -1,0 +1,38 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: rgb(0, 16, 247); 
+    --color-secondary: rgb(134, 142, 255);
+    --spacing: 16px;
+}
+
+h1, h2, h3 {
+    color: var(--color-primary);
+    margin: var(--spacing);
+}
+
+p {
+    color: var(--color-secondary);
+}
+
+.container1  {
+    width: 300px;  /*100% viewport width*/
+    height: 300px; /*100% viewport height*/
+    background-color: var(--color-primary);
+    transition-duration: 500ms;
+    box-shadow: 0 0 105px black;
+    border-radius: 10px;
+
+ }
+
+.container1:hover {
+     width: 500px;
+     background-color: var(--color-secondary);
+     /*transform: translate(50px, 100px);*/
+     transform: rotate(360deg) scale(2,3);
+     box-shadow: 0 0 210px black;
+}
