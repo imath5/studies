@@ -1,0 +1,13 @@
+body { /*TAG*/
+    background: #dbdbdb;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%;*/
+    background-position: center center; /*background fica no centro da pagina*/
+    background-size: cover; /*background fica na pagina web completa*/
+    background-attachment: fixed; /*background não se move, fica fixo*/
+}
+
+p { 
+    color: #222222;
+}

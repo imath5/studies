@@ -1,0 +1,14 @@
+body { /*TAG*/
+    background: purple;
+}
+h3{ /*TAG*/
+    color: green;
+}
+
+.foto-principal{ /*CLASS*/
+    width: 500px;
+}
+
+#titulo-principal{ /*ID*/
+    color: yellow;
+}

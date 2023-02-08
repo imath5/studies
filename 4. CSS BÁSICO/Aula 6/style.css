@@ -1,0 +1,16 @@
+body { /*TAG*/
+    background: #dbdbdb;
+}
+
+p { /*TAG*/
+    color: #222222;
+}
+
+.foto-principal { /*CLASS*/
+    border: 2px solid #FFFFFF; /*shorthand*/
+    border-radius: 50% 50% 50% 50%;
+    margin/*espaçamento externo*/: 30px 30px 30px 30px;
+
+    padding/*espaçamento interno*/: 1px;
+}
+
